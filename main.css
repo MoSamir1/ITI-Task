@@ -1,0 +1,67 @@
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form {
+  padding: 20px;
+}
+/* label {
+  margin-right: 20px;
+} */
+input {
+  padding: 7px;
+  margin-top: 15px;
+}
+.labelarea{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+}
+textarea {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+select {
+  display: inline-block;
+  width: 180px;
+  padding: 7px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+input[type = radio] {
+  margin-left: 15px;
+  padding: 20px;
+}
+input[type = checkbox]{
+text-align: center;
+  margin-left: 40px;
+}
+.captcha {
+  margin-left: 70px;
+}
+img {
+  width: 200px;
+}
+fieldset{
+  width: fit-content;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: rgba(119, 203, 255, 0.563);
+ padding: 50px 50px 50px 20px;
+}
+input[type = "submit"] {
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-weight: 700;
+  color: #fff;
+  width: 120px;
+  background-color: #04f;
+  border: none;
+  border-radius: 8px;
+}
+input[type = "reset"] {
+  color: #fff;
+  background-color: rgba(0, 68, 255, 0.658);
+  border: none;
+  border-radius: 8px;
+}
